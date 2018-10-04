@@ -10,18 +10,26 @@
   "author": "Aaron Chan",
   "license": "MIT",
   "devDependencies": {
-    "babel-core": "^6.23.1",
-    "babel-loader": "^6.3.2",
-    "babel-preset-es2015": "^6.22.0",
-    "babel-preset-react": "^6.23.0",
     "webpack": "^2.2.1"
   },
   "dependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@material-ui/core": "^3.1.2",
+    "@material-ui/icons": "^3.0.1",
+    "axios": "^0.18.0",
+    "babel-cli": "^7.0.0-0",
+    "babel-loader": "^8.0.4",
+    "babel-upgrade": "0.0.23",
     "body-parser": "^1.17.2",
     "express": "^4.15.0",
     "jquery": "^3.1.1",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
+    "material-ui": "^0.20.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "recharts": "^1.3.1",
     "request": "^2.83.0"
   }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import $ from 'jquery';
-// import AnyComponent from './components/filename.jsx'
+import axios from 'axios';
+import Dashboard from './components/Dashboard.js';
 
 class App extends React.Component {
   constructor(props) {
@@ -11,8 +11,17 @@ class App extends React.Component {
   	}
   }
 
+componentDidMount() {
+  axios.get('/userinfo').then((data) => {
+    console.log(data);
+  })
+}
+
   render () {
-  	return (<div>Hello World</div>)
+  	return (
+    <div>
+      <Dashboard/>
+    </div>)
   }
 }
 
